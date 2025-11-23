@@ -16,14 +16,14 @@ and send location-based alerts to ThingSpeak. The drone continuously monitors th
 
 ## Connections
 
-| Component      |	ESP32 Pin   |
-| ----------------------------- |
-| Flame Sensor AO |	GPIO 34     |
-| Smoke Sensor AO |  GPIO 35    |
-| GPS TX	        |  GPIO 16    |
-| GPS RX	        |  GPIO 17    |
-| 3.3V / 5V	      |  3.3V / 5V  |
-| GND	            |  GND        |
+| Component          | ESP32 Pin |
+|-------------------|-----------|
+| Flame Sensor AO    | GPIO 34   |
+| Smoke Sensor AO    | GPIO 35   |
+| GPS TX             | GPIO 16   |
+| GPS RX             | GPIO 17   |
+| 3.3V / 5V          | 3.3V / 5V |
+| GND                | GND       |
 
 
 ## How It Works
@@ -31,7 +31,6 @@ and send location-based alerts to ThingSpeak. The drone continuously monitors th
 - The flame sensor detects fire intensity using analog values.
 - The smoke sensor (MQ-2) detects smoke concentration.
 - The GPS module fetches latitude and longitude.
-  
 - ESP32 checks:
 - If flame value < threshold → FIRE detected
 - If smoke value > threshold → SMOKE detected
