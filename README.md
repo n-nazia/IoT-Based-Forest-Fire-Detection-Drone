@@ -33,8 +33,8 @@ and send location-based alerts to ThingSpeak. The drone continuously monitors th
 - The GPS module fetches latitude and longitude.
   
 - ESP32 checks:
--- If flame value < threshold → FIRE detected
--- If smoke value > threshold → SMOKE detected
+- If flame value < threshold → FIRE detected
+- If smoke value > threshold → SMOKE detected
 - When fire/smoke is detected:
 - Coordinates + sensor values are sent to ThingSpeak as an alert.
 - All real-time readings are also printed on the Serial Monitor.
