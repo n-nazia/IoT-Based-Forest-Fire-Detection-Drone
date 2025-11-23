@@ -37,3 +37,8 @@ and send location-based alerts to ThingSpeak. The drone continuously monitors th
 - When fire/smoke is detected:
 - Coordinates + sensor values are sent to ThingSpeak as an alert.
 - All real-time readings are also printed on the Serial Monitor.
+
+
+## Author
+Name: N. Nazia
+Email: nazianoorsabgari@gmail.com
